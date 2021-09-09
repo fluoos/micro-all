@@ -1,0 +1,38 @@
+{
+  "name": "micro-all",
+  "version": "1.0.0",
+  "description": "前端同时运行多项目命令工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "micro",
+    "micro-all",
+    "npm-run-all",
+    "micro app",
+    "cli"
+  ],
+  "author": "zhangxianming",
+  "license": "ISC",
+  "bin": {
+    "ak": "bin/index.js",
+    "ak-cli": "bin/index.js",
+    "lingxing": "bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^5.0.0",
+    "del": "^6.0.0",
+    "download-git-repo": "^3.0.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.3.3",
+    "javascript-stringify": "^2.0.1",
+    "log-symbols": "^3.0.0",
+    "mv": "^2.1.1",
+    "mvdir": "^1.0.21",
+    "ora": "^4.0.3",
+    "path": "^0.12.7"
+  }
+}
