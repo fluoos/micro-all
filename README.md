@@ -25,5 +25,5 @@ micro install
 ```
 npm run serve
 or
-micro run serve
+micro serve
 ```
