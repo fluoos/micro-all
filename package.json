@@ -18,7 +18,8 @@
   "bin": {
     "micro": "bin/index.js",
     "micro-all": "bin/index.js",
-    "micro-run-all": "bin/index.js"
+    "micro-run-all": "bin/index.js",
+    "micro-increase-memory": "bin/increase.js"
   },
   "dependencies": {
     "chalk": "^3.0.0",
@@ -32,6 +33,7 @@
     "mv": "^2.1.1",
     "mvdir": "^1.0.21",
     "ora": "^4.0.3",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "glob": "^7.1.1"
   }
 }
